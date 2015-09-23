@@ -11,10 +11,11 @@ class String
   end
 end
 
-# This doesn't work. Not currently explicitly returning
-# words_array.each do |word|
-#   if (word.chars.sort) == (check_word.chars.sort)
-#     true
-#   else
-#     false
-#   end
+
+
+# if/else longhand
+# if (word.chars.sort) == (check_word.chars.sort)
+#   return true
+# else
+#   return false
+# end

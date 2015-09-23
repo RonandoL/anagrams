@@ -10,7 +10,7 @@ describe('String#anagrams') do
     expect(("listen").anagrams("cat")).to(eq(false))
   end
 
-  # it("will verify if an argument is an anagram when tested against multiple words") do
-  #   expect(("listen cat dog").anagrams("silent")).to(eq(true))
-  # end
+  it("will verify if an argument is an anagram when tested against multiple words") do
+    expect(("listen cat dog").anagrams("silent")).to(eq(true))
+  end
 end
