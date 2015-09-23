@@ -6,11 +6,12 @@ class String
 
     words_array.each do |word|
       return true if (word.chars.sort) == (check_word.chars.sort)
+      return false if (word.chars.sort) != (check_word.chars.sort)
     end
   end
 end
 
-# This doesn't work. Not currently explicitly returning 
+# This doesn't work. Not currently explicitly returning
 # words_array.each do |word|
 #   if (word.chars.sort) == (check_word.chars.sort)
 #     true
