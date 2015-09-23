@@ -2,15 +2,21 @@
 <h3>Step right up, see if your word is an anagram when compared to a bunch of other words.</h3>
 
 <form action="/results">
-  <div class="form-group">
-    <label for="words">Please enter a bunch of words here</label>
-    <input id="words" name="words" class="form-control" type="text">
+  <div class="row">
+    <div class="form-group col-xs-6">
+      <label for="words">Please enter a bunch of words here</label>
+      <input id="words" name="words" class="form-control" type="text">
+    </div>
   </div>
-
-  <div class="form-group">
-    <label for="check_word">Enter single word here to see if it's an anagram.</label>
-    <input id="check_word" name="check_word" class="form-control" type="text">
+  <div class="row">
+    <div class="form-group col-xs-4">
+      <label for="check_word">Enter single word here to see if it's an anagram.</label>
+      <input id="check_word" name="check_word" class="form-control" type="text">
+    </div>
   </div>
-
-  <button type="submit" class="btn btn-warning">Go Baby!</button>
+  <div class="row">
+    <div class="col-xs-4">
+      <button type="submit" class="btn btn-warning">Go Baby!</button>
+    </div>
+  </div>
 </form>
