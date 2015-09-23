@@ -17,4 +17,9 @@ describe('String#anagrams') do
   it("will verify if a mixcase argument is an anagram when tested against mixcase multiple words") do
     expect(("Listen cat dog").anagrams("SilEnt")).to(eq(true))
   end
+
+  it("will verify if a mixcase argument is an anagram when tested against mixcase multiple words when anagram is not the first word") do
+    expect(("Listen cat dog").anagrams("God")).to(eq(true))
+  end
+
 end

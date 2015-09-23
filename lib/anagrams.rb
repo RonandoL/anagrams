@@ -14,8 +14,8 @@ end
 
 
 # if/else longhand
-# if (word.chars.sort) == (check_word.chars.sort)
-#   return true
-# else
-#   return false
-# end
+    # if (word.chars.sort) == (check_word.chars.sort)
+    #   return true
+    # else
+    #   return false
+    # end
